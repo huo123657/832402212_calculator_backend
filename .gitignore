@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# 运行时生成的本地数据库文件（含个人数据，不入库）
+calculator.db
+
+# IDE
+.idea/
+.vscode/
