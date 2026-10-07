@@ -1,6 +1,6 @@
-# StudentID_calculator_backend
+﻿# 832402212_calculator_backend
 
-前后端分离计算器系统的**后端服务**（配套前端仓库：`StudentID_calculator_frontend`）。
+前后端分离计算器系统的**后端服务**（配套前端仓库：`832402212_calculator_frontend`）。
 
 后端负责全部核心逻辑：接收表达式请求、输入校验、数学表达式解析与计算（**不使用 eval**）、异常处理、计算历史在数据库中的增删查。
 
@@ -22,7 +22,7 @@
 
 ```bash
 # 1. 进入后端项目根目录
-cd StudentID_calculator_backend
+cd 832402212_calculator_backend
 
 # 2.（可选）创建并激活虚拟环境
 python -m venv venv
@@ -101,7 +101,7 @@ POST /api/calculate
 ## 目录结构
 
 ```text
-StudentID_calculator_backend/
+832402212_calculator_backend/
 ├── src/
 │   ├── app.py                    # 应用入口：创建 Flask 应用、CORS、全局异常
 │   ├── controller/
